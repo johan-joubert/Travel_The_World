@@ -29,9 +29,10 @@ nav.scroll {
 
 
 
-/* CAROUSEL
+/* CAROUSEL 
+===============================*/
 #carouselExampleCaptions img {
-    height: 55vh;
+    height: 100vh;
 }
 
 #carouselExampleCaptions {
@@ -49,9 +50,26 @@ nav.scroll {
 
 .carousel-caption {
     background-color: rgba(128, 128, 128, 0.411);
-    border-radius: 10px;
+    border-radius: 15px;
 }
-=======
+
+/* YOUTUBE VIDEO
+======================= */
+
+#youtubeVideo iframe {
+    height: 40vh;
+    width: 100%;
+}
+
+#youtubeVideo {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#youtubeVideo h2 {
+    color: rgb(53, 53, 149);
+    margin-bottom: 1vh;
+}
 /* ========FORMULES========= */
 
 .formules {
@@ -74,7 +92,6 @@ nav.scroll {
 }
 
 .formule {
-    /* width: 20vw; */
     background-color: rgb(182, 245, 245);
     border-radius: 35px;
     border: outset 3px;
@@ -115,3 +132,6 @@ nav.scroll {
     color: green;
     font-size: 25px;
 }
+
+
+
