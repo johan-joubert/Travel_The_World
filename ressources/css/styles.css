@@ -146,7 +146,7 @@ input {
 
 .resa {
     border: 2px solid black;
-    width: 400px;
+    width: 100%;
 }
 /* ========Bandeau========= */
 
@@ -170,4 +170,33 @@ input {
 .fa-award {
     color: gold;
     font-size: 40px;
+}
+
+
+
+/*PARTENARIA*/
+
+.three_partenaria {
+    margin-top: 60px;
+}
+
+.three_partenaria h2 {
+    text-align: center;
+}
+
+.partenaria {
+    width: 300px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+
+}
+
+/*CONTACT*/
+
+.contact {
+    margin-top: 60px;
 }
