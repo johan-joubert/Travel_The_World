@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*HEADER*/
+
+nav {
+    font-size: 1.2em;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+
+
+
+
+nav.scroll {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
+}
