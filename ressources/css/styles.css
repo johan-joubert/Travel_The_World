@@ -132,7 +132,6 @@ nav.scroll {
 
 
 
-=======
 
 
 /*MAIN*/
@@ -148,4 +147,27 @@ input {
 .resa {
     border: 2px solid black;
     width: 400px;
+}
+/* ========Bandeau========= */
+
+.bandeau {
+    width: 100vw;
+    background-color: rgb(0, 217, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.fa-plane-departure {
+    color:green;
+    font-size: 40px;
+}
+
+.fa-times {
+    color:red;
+    font-size: 40px;
+}
+
+.fa-award {
+    color: gold;
+    font-size: 40px;
 }
