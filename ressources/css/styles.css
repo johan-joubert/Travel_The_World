@@ -6,20 +6,18 @@ body {
 
 
 
-
 /*HEADER*/
 
+
+/*navbar*/
 nav {
     font-size: 1.2em;
+    background-color: rgba(157, 185, 216, 0.4);
 }
 
 .nav-item {
     margin-right: 10px;
 }
-
-
-
-
 
 nav.scroll {
     background-color: rgb(255, 255, 255);
@@ -51,4 +49,21 @@ nav.scroll {
 .carousel-caption {
     background-color: rgba(128, 128, 128, 0.411);
     border-radius: 10px;
+}
+
+
+
+/*MAIN*/
+
+.aside_resa {
+    margin-top: 60px;
+}
+
+input {
+    margin: 10px;
+}
+
+.resa {
+    border: 2px solid black;
+    width: 400px;
 }
