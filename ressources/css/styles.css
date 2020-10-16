@@ -12,13 +12,23 @@ body {
 /*navbar*/
 nav {
     font-size: 1.2em;
+<<<<<<< Updated upstream
     background-color: rgba(157, 185, 216, 0.4);
+=======
+    margin-top: -7vh;
+>>>>>>> Stashed changes
 }
 
 .nav-item {
     margin-right: 10px;
 }
 
+<<<<<<< Updated upstream
+=======
+
+
+
+>>>>>>> Stashed changes
 nav.scroll {
     background-color: rgb(255, 255, 255);
     transition: 1s;
@@ -61,12 +71,47 @@ nav.scroll {
 #youtubeVideo {
     margin-top: 60px;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 #youtubeVideo h2 {
     color: rgb(53, 53, 149);
     margin-bottom: 1vh;
 }
+
+/* PROMOTION BANNER
+===================== */
+#promotionBanner {
+    background-color: rgb(53, 53, 149);
+    color: white;
+    height: 30vh;
+    margin-bottom: 60px;
+}
+
+#promotionBanner h2 {
+    font-size: 100px;
+    margin-left: 25px;
+}
+
+#promotionBanner h3 {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(53, 53, 149);
+    font-size: 4.1vh;
+    margin-right: 6px;
+    width: 90vh;
+    border-radius: 50px;
+    margin-top: 2vh;
+}
+
+#promotionBanner p {
+    margin-left: 40px;
+}
+
+
 /* ========FORMULES========= */
 
 .formules {
