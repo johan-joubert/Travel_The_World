@@ -26,3 +26,29 @@ nav.scroll {
     transition: 1s;
     box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
 }
+
+
+
+/* CAROUSEL
+================= */
+#carouselExampleCaptions img {
+    height: 55vh;
+}
+
+#carouselExampleCaptions {
+    border: black solid 2px;
+}
+
+#carouselExampleCaptions h5 {
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+#carouselExampleCaptions p {
+    font-size: 3vh;
+}
+
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.411);
+    border-radius: 10px;
+}
